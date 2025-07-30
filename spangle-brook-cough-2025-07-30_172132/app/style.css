@@ -1,0 +1,53 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 200%;
+  background-image: url("https://cdn.glitch.global/ae847350-8848-4382-b492-ea88de4f6349/image_2025-02-23_132918772.png?v=1740310160315");
+  background-size: 500px 500px;
+  color: blue;
+
+}
+
+#cyclone {
+  z-index: 2;
+  position: absolute;
+  width: 200px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid blue;
+  background-color:  rgba(0, 0, 0, 0.3);
+  
+}
+
+th {
+  
+}
+
+tr {
+  width: min-content;
+}
+
+td.number {
+  font-size: larger;
+}
+
+td.movie {
+  font-size: xx-large;
+  transition: background 0.3s ease;
+}
+
+td.movie:hover {
+  background: black;
+}
+
+img {
+  width: 200px;
+  border-radius: 8%;
+}
